@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/ysj17366781" name="origin"/>
+  <default remote="origin" revision="refs/heads/master" sync-j="8"/>
+  <project name="repo_path/meta-openembedded" path="meta/meta-openembedded"/>
+  <project name="repo_path/meta-gplv2" path="meta/meta-gplv2"/>
+  <project name="repo_path/poky" path="meta/poky""/>
+  <project name="repo_path/downloads" path="downloads"/>
+  <project name="repo_path/bluetooth_mw" path="src/connectivity/bt_others/bluetooth_mw" />
+  <project name="repo_path/bluetooth_tool" path="src/connectivity/bt_others/bluetooth_tool" />
+  <project name="repo_path/boots" path="src/connectivity/bt_others/boots" />
+  <project name="repo_path/picus" path="src/connectivity/bt_others/picus" />
+  <project name="repo_path/mt66xx" path="src/connectivity/bt_others/vendor_lib/mt66xx" />
+  <project name="repo_path/bluedroid_turnkey" path="src/connectivity/bt_stack/bluedroid_turnkey" />
+  <project name="repo_path/wlan_cfg" path="src/connectivity/wlan_cfg" />
+  <project name="repo_path/wifi_test_tool" path="src/connectivity/wlan_tool/wifi_test_tool" />
+  <project name="repo_path/aud8516-emmc" path="meta/base/conf/mt8516/aud8516-emmc" />
+  <project name="repo_path/aud8516-slc" path="meta/base/conf/mt8516/aud8516-slc" />
+  <project name="repo_path/aud8516-slc-32b" path="meta/base/conf/mt8516/aud8516-slc-32b" />
+  <project name="repo_path/aud8516-ztk-avs" path="meta/base/conf/mt8516/aud8516-ztk-avs" />
+  <project name="repo_path/aud8516-ztk-basic" path="meta/base/conf/mt8516/aud8516-ztk-basic" />
+  <project name="repo_path/aud8516-ztk-dueros" path="meta/base/conf/mt8516/aud8516-ztk-dueros" />
+  <project name="repo_path/aud8516-ztk-open-avs" path="meta/base/conf/mt8516/aud8516-ztk-open-avs" />
+  <project name="repo_path/aud8516-ztk-open-basic" path="meta/base/conf/mt8516/aud8516-ztk-open-basic" />
+  <project name="repo_path/aud8516-ztk-open-dueros" path="meta/base/conf/mt8516/aud8516-ztk-open-dueros" />
+  <project name="repo_path/aud8516p1v2-consys-slc" path="meta/base/conf/mt8516/aud8516p1v2-consys-slc" />
+  <project name="repo_path/aud8516p1v2-consys-slc-128" path="meta/base/conf/mt8516/aud8516p1v2-consys-slc-128" />
+  <project name="repo_path/aud8516p1v2-slc" path="meta/base/conf/mt8516/aud8516p1v2-slc" />
+  <project name="repo_path/aud8516p1v2-slc-32b" path="meta/base/conf/mt8516/aud8516p1v2-slc-32b" />
+  <project name="repo_path/aud8516p1v2-slc-bluez" path="meta/base/conf/mt8516/aud8516p1v2-slc-bluez" />
+  <project name="repo_path/common" path="meta/base/conf/mt8516/common" />
+  <project name="repo_path/meta-mediatek" path="meta/meta-mediatek" />
+  <project name="repo_path/meta-mediatek-aud" path="meta/meta-mediatek-aud" />
+  <project name="repo_path/meta-mediatek-mt8516" path="meta/meta-mediatek-mt8516" />
+  <project name="repo_path/atf" path="prebuilt/bsp/atf" />
+  <project name="repo_path/trustzone" path="prebuilt/bsp/trustzone" />
+  <project name="repo_path/tzapp" path="prebuilt/bsp/tzapp" />
+  <project name="repo_path/ztk-adaptor" path="prebuilt/cloud/ztk-adaptor" />
+  <project name="repo_path/combo_tool" path="prebuilt/connectivity/combo_tool" />
+  <project name="repo_path/wifitesttool" path="prebuilt/connectivity/wifitesttool" />
+  <project name="repo_path/wlan" path="prebuilt/connectivity/wlan" />
+  <project name="repo_path/wlan_smartconnection" path="prebuilt/connectivity/wlan_smartconnection" />
+  <project name="repo_path/mtk-alsa-plugins" path="prebuilt/multimedia/audio-misc/mtk-alsa-plugins" />
+  <project name="repo_path/audio-misc/mtk-audio-service" path="prebuilt/multimedia/audio-misc/mtk-audio-service" />
+  <project name="repo_path/ppc" path="prebuilt/multimedia/audio-misc/ppc" />
+  <project name="repo_path/ppc_framework" path="prebuilt/multimedia/audio-misc/ppc_framework" />
+  <project name="repo_path/ppccli" path="prebuilt/multimedia/audio-misc/ppccli" />
+  <project name="repo_path/smartaudioplayer" path="prebuilt/multimedia/smartaudioplayer" />
+  <project name="repo_path/mpctec" path="prebuilt/support/assistant-sdk/mpctec" />
+  <project name="repo_path/soundai" path="prebuilt/support/assistant-sdk/soundai" />
+  <project name="repo_path/wenzhi" path="prebuilt/support/assistant-sdk/wenzhi" />
+  <project name="repo_path/buildinfo" path="prebuilt/support/buildinfo" />
+  <project name="repo_path/guardian" path="prebuilt/support/guardian" />
+  <project name="repo_path/nvram" path="prebuilt/support/nvram" />
+  <project name="repo_path/aud-base" path="src/apps/aud-base" />
+  <project name="repo_path/lk" path="src/bsp/lk" />
+  <project name="repo_path/scatter" path="src/bsp/scatter" />
+  <project name="repo_path/teeloader" path="src/bsp/trustzone/teeloader" />
+  <project name="repo_path/ali" path="src/cloud/ali" />
+  <project name="repo_path/custom" path="src/cloud/custom" />
+  <project name="repo_path/dueros" path="src/cloud/dueros" />
+  <project name="repo_path/datool" path="src/devtools/datool" />
+  <project name="repo_path/v4.4" path="src/kernel/linux/v4.4" />
+  <project name="repo_path/libnvram_custom" path="src/support/libnvram_custom" />
+</manifest>
